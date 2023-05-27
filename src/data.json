@@ -1,8 +1,53 @@
 {
-    "title": "JSON Menu",
-    "foods": {
-      "name": "Hamburger",
-      "description": "The best ingredients for you",
-      "price": 12
+  "name": "Nandemo Resto",
+  "address": "Sotokanda, Chiyoda-ku, Tokyo, 101-0021 4 Chome-14",
+  "phone": "+81 3-3526-4129",
+  "website": "www.nandemoresto.com",
+  "time": ["mon-fri 10 am - 10 pm", "sat-sun 8 am - 10 pm"],
+
+  "foods": [
+    {
+      "name": "French Onion Soup",
+      "description": "Slow simmered sweet onions, topped with savory Swiss Cheese and garnished with croutons.",
+      "price": 8.5
+    },
+    {
+      "name": "Soy Marinaeted Wagyu Beef",
+      "description": "Marbled Japanese Wagyu beef fillet marinated in soy sauce for 48 hours. Tender and flavourful.",
+      "price": 53
+    },
+    {
+      "name": "Pulpo a la Galegga",
+      "description": "Gallician style boiled fresh-caught octopus served on potato bed and seasoned with sweet or spicy paprika.",
+      "price": 17
+    },
+    {
+      "name": "Zesty Salmon Filet",
+      "description": "Oven-baked salmon filet served with a garlic-infused citrusy sauce. Kosher product.",
+      "price": 22
+    },
+    {
+      "name": "Hummus Mezze",
+      "description": "An assortment of 4 hummus plates: plain, with avocado, with paprika and with truffle oil. Vegan friendly.",
+      "price": 14
     }
-  }
+  ],
+
+  "drinks": [
+    {
+      "name": "Ice Tea",
+      "price": 8
+    },
+    {
+      "name": "Milkshake",
+      "price": 10
+    }
+  ],
+
+  "desserts": [
+    {
+      "name": "Ice Cream",
+      "price": 9
+    }
+  ]
+}
