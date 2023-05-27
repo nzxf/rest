@@ -1,0 +1,8 @@
+{
+    "title": "JSON Menu",
+    "foods": {
+      "name": "Hamburger",
+      "description": "The best ingredients for you",
+      "price": 12
+    }
+  }
