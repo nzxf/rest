@@ -1,3 +1,7 @@
-document.querySelector('#content').innerText = "ahooy"
+import "./style.css";
+import data from './data.json';
 
-console.log("This time it will be perfect")
+const content = document.querySelector("#content");
+console.log(data)
+
+
