@@ -18,7 +18,7 @@ body {
 }
 
 #content {
-  background-color: rgb(200, 248, 241);
+  /* background-color: rgb(200, 248, 241); */
   width: 90%;
   height: 90%;
 
@@ -39,24 +39,58 @@ body {
   align-self: center;
   height: 150px;
   width: 320px;
-  background-color: rgb(119, 119, 119);
-  border: solid 10px rgba(4, 133, 0, 0.568);
+  background-color: rgb(41, 41, 41);
+  border: solid 10px rgba(161, 161, 161, 0.568);
   border-radius: 25px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2rem;
-  color: yellow;
+  font-size: 1rem;
+  color: rgb(255, 255, 0);
+}
+
+.menu-title {
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.menu-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.menus {
+  width: 30%;
+  height: 95%;
+  padding: 3px;
+
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-name {
+  font-size: 1.1rem;
+}
+
+.menu-description {
+  font-size: .7rem;
+}
+
+.menu-price {
+  font-size: 1.4;
 }
 
 .stick-container {
   display: flex;
   justify-content: space-evenly;
   border-bottom: 7px solid rgb(104, 104, 104);
-  border-left: solid 10px transparent;
-  border-right: solid 10px transparent;
 }
 
 .stick-back,
@@ -158,8 +192,8 @@ body {
 }
 
 .menu {
-  width: 60px;
-  height: 70px;
+  width: 70px;
+  height: 100px;
   background-color: rgb(238, 250, 136);
 
   display: flex;
@@ -177,7 +211,7 @@ body {
 }
 
 button {
-  width: 50px;
+  width: 60px;
   padding: 1px 3px 2px;
   border-radius: 2px;
 }
