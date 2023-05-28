@@ -1,10 +1,14 @@
+@font-face {
+  font-family: myFont;
+  src: url(myFont.ttf);
+}
+
 * {
   box-sizing: border-box;
   border: 0;
   margin: 0;
   padding: 0;
-  font-family: Verdana;
-  font-weight: 600;
+  font-family: myFont;
 }
 
 body {
@@ -48,14 +52,23 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1rem;
   color: rgb(255, 255, 0);
+}
+
+.resto-name {
+  font-size: 2.5rem;
+}
+
+.resto-address,
+.resto-phone,
+.resto-website {
+  font-size: .8rem;
 }
 
 .menu-title {
   color: green;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 1000;
 }
 
 .menu-container {
@@ -70,7 +83,8 @@ body {
   padding: 3px;
 
   display: grid;
-  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr .5fr;
+  gap: 3px;
   justify-content: center;
   align-items: center;
 }
@@ -84,7 +98,7 @@ body {
 }
 
 .menu-price {
-  font-size: 1.4;
+  font-size: 1;
 }
 
 .stick-container {
@@ -187,14 +201,53 @@ body {
   box-shadow: 0px 7px 0px #c5c5c5;
 
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0 3px;
+}
+
+.window-large-top {
+  height: 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  transform: scale(1.1) translateY(-5px);
+}
+
+.roof-0, .roof-2, .roof-4 {
+  height: 30px; 
+  background-color: green;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.roof-1, .roof-3, .roof-5 {
+  height: 30px; 
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.window-large-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  overflow: hidden;
+}
+
+.img {
+  width: 90px;
+  height: 90px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/745/745449.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: translateY(65px);
 }
 
 .menu {
   width: 70px;
-  height: 100px;
-  background-color: rgb(238, 250, 136);
+  height: 85px;
+  background-color: rgb(197, 212, 62);
 
   display: flex;
   flex-direction: column;
@@ -211,7 +264,9 @@ body {
 }
 
 button {
-  width: 60px;
-  padding: 1px 3px 2px;
+  opacity: .8;
+  font-size: .8rem;
+  /* width: 60px; */
+  padding: 1px 2px 1px;
   border-radius: 2px;
 }
