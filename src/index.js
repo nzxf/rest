@@ -1,30 +1,28 @@
 import './style.css';
 // import data from './data.json';
 
+// Element Maker
+const makeElement = (type, nameClass, parent) => {
+  const element = document.createElement(type);
+  element.classList.add(nameClass);
+  parent.appendChild(element);
+  return element;
+};
+
 const content = document.querySelector('#content');
 
-const leftContent = document.createElement('div');
-leftContent.classList.add('left-content');
-content.appendChild(leftContent);
+makeElement('div', 'menu-container', content);
 
-// MID
-const midContent = document.createElement('div');
-midContent.classList.add('mid-content');
-content.appendChild(midContent);
-
-const center = document.createElement('div');
-center.classList.add('center');
-midContent.appendChild(center);
-
-const coverButton = document.createElement('button');
-coverButton.classList.add('cover-button')
-coverButton.innerText = 'NANDEMO\nRESTO';
-center.appendChild(coverButton);
-const menuButton = document.createElement('button');
-menuButton.classList.add('menu-button')
-menuButton.innerText = 'MENU';
-center.appendChild(menuButton);
-
-const rightContent = document.createElement('div');
-rightContent.classList.add('right-content');
-content.appendChild(rightContent);
+const truckContainer = makeElement('div', 'truck-container', content);
+const truckBody = makeElement('div', 'truck-body', truckContainer);
+const truckFront = makeElement('div', 'truck-front', truckContainer);
+const truckLamp = makeElement('div', 'truck-lamp', truckFront);
+const truckChassis = makeElement('div', 'truck-chassis', truckContainer);
+const truckTireBack = makeElement('div', 'truck-tire-back', truckContainer);
+const truckTireFront = makeElement('div', 'truck-tire-front', truckContainer);
+const truckWindows = makeElement('div', 'truck-windows', truckBody);
+const windowLarge = makeElement('div', 'window-large', truckWindows);
+// windowLarge.innerText = "Opening soon"
+const menu = makeElement('div', 'menu', windowLarge);
+menu.inner
+const windowSmall = makeElement('div', 'window-small', truckWindows);

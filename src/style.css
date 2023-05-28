@@ -18,51 +18,123 @@ body {
 }
 
 #content {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(200, 248, 241);
   width: 90%;
   height: 90%;
   
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-rows: 2fr 1fr 2fr;
-  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.left-content,
-.right-content {
-  background-color: yellowgreen;
+.menu-container {
+  background-color: antiquewhite;
 }
 
-.mid-content {
+.truck-container {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 400px 75px;
+  grid-template-rows: 100px 100px 20px 90px; 
+  /* background-color: antiquewhite; */
+}
+
+.truck-front {
+  grid-row: 2/3;
+  background-color: #F4615D;
+  border-top-right-radius: 75px ;
+
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  background-color: yellow;
 }
 
-.center {
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
+.truck-lamp {
+  width: 30px;
+  height: 20px;
   background-color: orange;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.truck-body {
+  grid-row: 1/3;
+  background-color: #F4615D;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 55px;
+  border-left: solid 15px #f85752;
+}
+
+.truck-chassis {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  width: 100%;
+  background-color: rgb(173, 173, 173);
+  border-radius: 10px;
+  border-bottom: solid 8px grey;
+  transform: scale(1.05);
+}
+
+.truck-tire-back {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  transform: translate(35px, -50px);
+}
+
+.truck-tire-front {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  transform: translate(-55px, -50px);
+}
+
+.truck-tire-front,
+.truck-tire-back {
+  width: 90px;
+  background-color: rgb(218, 218, 218);
+  border: solid 20px rgb(90, 86, 86);
+  border-radius: 50%;
+}
+
+
+.truck-windows {
+  /* background-color: yellowgreen; */
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  gap: 25px;
+  padding: 25px;
+  justify-content: center;
+}
+
+.window-large {
+  height: 120px;
+  background-color: #414356;
+  border-top: solid 15px #e4e4e4;
+  border-right: solid 7px #F4615D;
+  border-left: solid 7px #F4615D;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 7px 0px #c5c5c5;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: end;
+  padding: 0 3px;
+}
+
+.menu {
+  width: 50px;
+  height: 70px;
+  background-color: yellowgreen;
   text-align: center;
 }
 
-.cover-button {
-  border-top-left-radius: 90px;
-  border-top-right-radius: 90px;
-  height: 60px;
-  width: 120px;
-}
- .menu-button {
-  border-bottom-left-radius: 90px;
-  border-bottom-right-radius: 90px;
-  height: 60px;
-  width: 120px;
+.window-small {
+  height: 75px;
+  background-color: #6EDCF9;
+  border-radius: 20px;
+  border-top-right-radius: 35px;
+  border-left: solid 15px #46d4fc;
 }
