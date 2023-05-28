@@ -1,58 +1,58 @@
 {
-  "name": "Meat Wagon Food Truck",
-  "address": "48 Street and, Park Ave, New York, NY 10017, United States",
+  "name": "Meat Wagon\nFood Truck",
+  "address": "48 Street and, Park Ave, New York",
   "phone": "+1 4-3526-4129",
   "website": "www.meatwagon.com",
   "time": "4:00 am - 10:00 pm",
 
   "burgers": [
     {
-      "name": "Burger",
-      "description": "Beef patty marinated in soy sauce. Tender and flavourful.",
+      "name": "Burger Original",
+      "description": "Tender and flavourful",
       "price": 10
     },
     {
       "name": "Cheese Burger",
-      "description": "Slow simmered sweet onions, topped with savory Swiss Cheese.",
+      "description": "Topped with savory Swiss Cheese",
       "price": 13
     },
     {
-      "name": "Maxi Burger",
-      "description": "Gallician style double beef seasoned with sweet or spicy paprika.",
+      "name": "Maxi\nBurger",
+      "description": "Gallician style double beefs",
       "price": 16
     }
   ],
   "fries": [
     {
-      "name": "French Fries",
-      "description": "Seasoning blend between onions and garlic powders",
+      "name": "French\nFries",
+      "description": "Onions and garlic powders",
       "price": 5
     },
     {
-      "name": "Rustic  Spicy",
-      "description": "Seasoning blend between onions and garlic powders",
+      "name": "Rustic\nSpicy",
+      "description": "Onions and garlic powders",
       "price": 7
     },
     {
-      "name": "Curly Fries",
-      "description": "Seasoning blend between onions and garlic powders",
+      "name": "Curly\nFries",
+      "description": "Onions and garlic powders",
       "price": 7
     }
   ],
   "pizzas": [
     {
       "name": "Quatro Stagioni",
-      "description": "Beef patty marinated in soy sauce. Tender and flavourful.",
+      "description": "Tender and flavourful",
       "price": 20
     },
     {
       "name": "Cinque Formagi",
-      "description": "Slow simmered sweet onions, topped with savory Swiss Cheese.",
+      "description": "Topped with savory Swiss Cheese",
       "price": 23
     },
     {
       "name": "Crudo E Ricolla",
-      "description": "Gallician style double beef seasoned with sweet or spicy paprika.",
+      "description": "Gallician style double beefs",
       "price": 25
     }
   ],
@@ -64,18 +64,18 @@
     },
     {
       "name": "Milkshake",
-      "description": "Vanilla, Strawberry, Banana or Chocolate",
+      "description": "Vanilla, Banana or Chocolate",
       "price": 10
     },
     {
       "name": "Tea",
-      "description": "Caroline Honey, Hibiscus Apple Cider or Pom",
+      "description": "Caroline, Hibiscus Cider or Pom",
       "price": 7
     }
   ],
   "specials": {
     "name": "Pulled Pork Special",
-    "description": "Come with your choice of side",
+    "description": "Our freshest menu",
     "price": 12.5
   }
 }
