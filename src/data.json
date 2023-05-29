@@ -1,76 +1,88 @@
 {
-  "name": "Meat Wagon\nFood Truck",
+  "name": "Meat Wagon!",
   "address": "48 Street and, Park Ave, New York",
   "phone": "+1 4-3526-4129",
   "website": "www.meatwagon.com",
-  "time": "4:00 am - 10:00 pm",
+  "time": "4:00 am - 10:00 pm (everyday)",
 
   "burgers": [
     {
-      "name": "Burger Original",
+      "name": "Original",
       "description": "Tender and flavourful",
-      "price": 10
+      "price": 10,
+      "image": "https://cdn-icons-png.flaticon.com/512/1923/1923515.png"
     },
     {
-      "name": "Cheese Burger",
+      "name": "Cheesed",
       "description": "Topped with savory Swiss Cheese",
-      "price": 13
+      "price": 13,
+      "image": "https://cdn-icons-png.flaticon.com/512/878/878052.png"
     },
     {
-      "name": "Maxi\nBurger",
+      "name": "Maxied",
       "description": "Gallician style double beefs",
-      "price": 16
+      "price": 16,
+      "image": "https://cdn-icons-png.flaticon.com/512/1720/1720602.png"
     }
   ],
-  "fries": [
+  "soups": [
     {
-      "name": "French\nFries",
+      "name": "French",
       "description": "Onions and garlic powders",
-      "price": 5
+      "price": 5,
+      "image": "https://cdn-icons-png.flaticon.com/512/7922/7922456.png"
     },
     {
-      "name": "Rustic\nSpicy",
+      "name": "Rustic",
       "description": "Onions and garlic powders",
-      "price": 7
+      "price": 7,
+      "image": "https://cdn-icons-png.flaticon.com/512/7922/7922475.png"
     },
     {
-      "name": "Curly\nFries",
+      "name": "Curly",
       "description": "Onions and garlic powders",
-      "price": 7
+      "price": 7,
+      "image": "https://cdn-icons-png.flaticon.com/512/7922/7922473.png"
     }
   ],
   "pizzas": [
     {
-      "name": "Quatro Stagioni",
+      "name": "Stagioni",
       "description": "Tender and flavourful",
-      "price": 20
+      "price": 20,
+      "image": "https://cdn-icons-png.flaticon.com/512/8692/8692163.png"
     },
     {
-      "name": "Cinque Formagi",
-      "description": "Topped with savory Swiss Cheese",
-      "price": 23
+      "name": "Formagi",
+      "description": "Topped with Swiss Cheese",
+      "price": 23,
+      "image": "https://cdn-icons-png.flaticon.com/512/8713/8713429.png"
     },
     {
-      "name": "Crudo E Ricolla",
+      "name": "Ricolla",
       "description": "Gallician style double beefs",
-      "price": 25
+      "price": 25,
+      "image": "https://cdn-icons-png.flaticon.com/512/8494/8494677.png"
     }
   ],
   "drinks": [
     {
-      "name": "Beer",
-      "description": "Pilsner, Porter, Stout or Barley Wine",
-      "price": 12
+      "name": "Juices",
+      "description": "Pilsner, Porter, Stout or Barley",
+      "price": 12,
+      "image": "https://cdn-icons-png.flaticon.com/512/1784/1784105.png"
     },
     {
       "name": "Milkshake",
       "description": "Vanilla, Banana or Chocolate",
-      "price": 10
+      "price": 10,
+      "image": "https://cdn-icons-png.flaticon.com/512/1784/1784110.png"
     },
     {
-      "name": "Tea",
+      "name": "Coffee",
       "description": "Caroline, Hibiscus Cider or Pom",
-      "price": 7
+      "price": 7,
+      "image": "https://cdn-icons-png.flaticon.com/512/1784/1784092.png"
     }
   ],
   "specials": {
