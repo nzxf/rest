@@ -243,7 +243,7 @@ body {
   padding: 0 3px;
 }
 
-.window-large-top {
+.window-top {
   height: 30px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -264,7 +264,7 @@ body {
   border-bottom-right-radius: 15px;
 }
 
-.window-large-bottom {
+.window-bottom {
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -287,7 +287,7 @@ body {
   transition: transform .5s;
 }
 
-.menu {
+.menu-card {
   width: 60px;
   height: 85px;
   background-color: #F9D468;
@@ -314,10 +314,11 @@ button {
   /* width: 60px; */
   padding: 1px 2px 1px;
   border-radius: 3.5px;
+  background-color: yellowgreen;
 }
 
 button:hover {
-  background-color: yellowgreen;
+  background-color: lightcyan;
 }
 
 /* ANIMATION MENU IN*/

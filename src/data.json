@@ -7,19 +7,19 @@
 
   "burgers": [
     {
-      "name": "Original",
+      "name": "Prime",
       "description": "Tender and flavourful",
       "price": 10,
       "image": "https://cdn-icons-png.flaticon.com/512/1923/1923515.png"
     },
     {
-      "name": "Cheesed",
-      "description": "Topped with savory Swiss Cheese",
+      "name": "Cheesie",
+      "description": "Topped with Swiss Cheese",
       "price": 13,
       "image": "https://cdn-icons-png.flaticon.com/512/878/878052.png"
     },
     {
-      "name": "Maxied",
+      "name": "Maxie",
       "description": "Gallician style double beefs",
       "price": 16,
       "image": "https://cdn-icons-png.flaticon.com/512/1720/1720602.png"
@@ -27,20 +27,20 @@
   ],
   "soups": [
     {
-      "name": "French",
-      "description": "Onions and garlic powders",
+      "name": "Caldo",
+      "description": "Popular in Mexico's coast",
       "price": 5,
       "image": "https://cdn-icons-png.flaticon.com/512/7922/7922456.png"
     },
     {
-      "name": "Rustic",
-      "description": "Onions and garlic powders",
+      "name": "Buridda",
+      "description": "Famous Italian seafood stew",
       "price": 7,
       "image": "https://cdn-icons-png.flaticon.com/512/7922/7922475.png"
     },
     {
-      "name": "Curly",
-      "description": "Onions and garlic powders",
+      "name": "Kalakeitto",
+      "description": "Traditional Finnish cuisine",
       "price": 7,
       "image": "https://cdn-icons-png.flaticon.com/512/7922/7922473.png"
     }
@@ -48,46 +48,41 @@
   "pizzas": [
     {
       "name": "Stagioni",
-      "description": "Tender and flavourful",
+      "description": "Artichokes, basil and ham ",
       "price": 20,
       "image": "https://cdn-icons-png.flaticon.com/512/8692/8692163.png"
     },
     {
-      "name": "Formagi",
-      "description": "Topped with Swiss Cheese",
+      "name": "Formaggi",
+      "description": "Goat cheese and gorgonzola",
       "price": 23,
       "image": "https://cdn-icons-png.flaticon.com/512/8713/8713429.png"
     },
     {
-      "name": "Ricolla",
-      "description": "Gallician style double beefs",
+      "name": "Ricotta",
+      "description": "Spinach, tomatoes and mozzarella",
       "price": 25,
       "image": "https://cdn-icons-png.flaticon.com/512/8494/8494677.png"
     }
   ],
   "drinks": [
     {
-      "name": "Juices",
-      "description": "Pilsner, Porter, Stout or Barley",
+      "name": "Juice",
+      "description": "Orange, Lemon or Pineapple",
       "price": 12,
       "image": "https://cdn-icons-png.flaticon.com/512/1784/1784105.png"
     },
     {
       "name": "Milkshake",
-      "description": "Vanilla, Banana or Chocolate",
+      "description": "Strawberry, Vanilla, or Chocolate",
       "price": 10,
       "image": "https://cdn-icons-png.flaticon.com/512/1784/1784110.png"
     },
     {
       "name": "Coffee",
-      "description": "Caroline, Hibiscus Cider or Pom",
+      "description": "Latte, Cappucino or Espresso",
       "price": 7,
       "image": "https://cdn-icons-png.flaticon.com/512/1784/1784092.png"
     }
-  ],
-  "specials": {
-    "name": "Pulled Pork Special",
-    "description": "Our freshest menu",
-    "price": 12.5
-  }
+  ]
 }
