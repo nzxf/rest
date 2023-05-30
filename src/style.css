@@ -273,13 +273,14 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translateY(62px);
+  transform: translateY(61px);
   transition: transform 10s;
+  transition-delay: 2s;
 }
 
 .chef-image-active {
-  transform: translateY(11px);
-  transition: transform .5s;
+  transform: translateY(10px);
+  transition: transform .3s;
 }
 
 .menu-card {

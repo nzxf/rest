@@ -36,7 +36,6 @@ const displayMenuDefault = (array, parent) => {
   makeElement('div', 'resto-time', profile, array.time);
   makeElement('div', 'resto-address', profile, array.address);
   makeElement('div', 'resto-website', profile, array.website);
-
   slide(profile, 'profile-active', 100)
 };
 
