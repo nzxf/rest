@@ -1,9 +1,12 @@
 import './style.css';
 import data from './data.json';
-import { makeFoodTruck, makeMenuButtons } from './functions';
+import { makeFoodTruck, makeMenuButtons, makeHomeButton } from './functions';
 
-// MAKE TRUCKFOOD AND SIGNBOARD
-makeFoodTruck(data, document.querySelector('#content'))
+// TRUCKFOOD AND SIGNBOARD
+makeFoodTruck(data, document.querySelector('#content'));
 
-// MAKE MENU TAB BUTTONS
+// MENU TAB BUTTONS
 makeMenuButtons(data, document.querySelector('.menu-card'));
+
+// HOME BUTTON
+makeHomeButton(data, document.querySelector('.window-small'))

@@ -31,10 +31,13 @@ const makeRoof = (howManyTile, parent) => {
 
 // FILL BOARD = RESTO PROFILE
 const displayMenuDefault = (array, parent) => {
-  makeElement('div', 'resto-name', parent, array.name.toUpperCase());
-  makeElement('div', 'resto-time', parent, array.time);
-  makeElement('div', 'resto-address', parent, array.address);
-  makeElement('div', 'resto-website', parent, array.website);
+  const profile = makeElement("div", 'profile', parent)
+  makeElement('div', 'resto-name', profile, array.name.toUpperCase());
+  makeElement('div', 'resto-time', profile, array.time);
+  makeElement('div', 'resto-address', profile, array.address);
+  makeElement('div', 'resto-website', profile, array.website);
+
+  slide(profile, 'profile-active', 100)
 };
 
 // FILL BOARD = MENU
@@ -63,7 +66,7 @@ const makeFoodTruck = (data, parent) => {
   const stickContainer = makeElement('div', 'stick-container', boardContainer);
   const stickBack = makeElement('div', 'stick-back', stickContainer);
   const stickFront = makeElement('div', 'stick-front', stickContainer);
-  displayMenuDefault(data, board)
+  displayMenuDefault(data, board);
   // TRUCK PARTS
   const truckContainer = makeElement('div', 'truck-container', content);
   const truckBody = makeElement('div', 'truck-body', truckContainer);
@@ -75,7 +78,7 @@ const makeFoodTruck = (data, parent) => {
   const truckWindows = makeElement('div', 'truck-windows', truckBody);
   const windowLarge = makeElement('div', 'window-large', truckWindows);
   const windowLargeTop = makeElement('div', 'window-top', windowLarge);
-  const windowLargeBottom = makeElement('div','window-bottom', windowLarge);
+  const windowLargeBottom = makeElement('div', 'window-bottom', windowLarge);
   const chefImage = makeElement('div', 'chef-image', windowLargeBottom);
   const menuCard = makeElement('div', 'menu-card', windowLargeBottom, 'MENU');
   const windowSmall = makeElement('div', 'window-small', truckWindows);
@@ -97,4 +100,14 @@ const makeMenuButtons = (array, parent) => {
   }
 };
 
-export { makeFoodTruck, displayMenuDefault, makeMenuButtons };
+// HOME BUTTON
+const makeHomeButton = (data, parent) => {
+  const sign = makeElement('button', 'sign', parent, 'Meat Wagon');
+  sign.addEventListener('click', function () {
+    const board = document.querySelector('.board')
+    clear(board);
+    displayMenuDefault(data, board)
+  });
+};
+
+export { makeFoodTruck, makeMenuButtons, makeHomeButton };
